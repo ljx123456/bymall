@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/net_ic"
+        android:scaleType="centerInside"
+        android:id="@+id/iv_net"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_net"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="亲，您的手机网络不太顺畅哟"
+        android:textColor="#444444"
+        android:textSize="18sp"
+        android:id="@+id/tv_net_tv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_net_tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请检查您的手机是否联网"
+        android:textColor="#6a6969"
+        android:textSize="15sp"
+        android:id="@+id/tv_net_tv2"/>
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_net_tv2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_net_ic"
+        android:id="@+id/btn_net"/>
+
+</RelativeLayout>

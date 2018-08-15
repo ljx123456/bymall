@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#ffffff">
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_drawback_goods"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_drawback_goods"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:text="花香随云南特产美食小吃鲜花饼玫瑰饼零食大礼包送礼1500g礼盒"
+            android:maxLines="2"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#555555"
+            android:textSize="13sp"
+            android:id="@+id/tv_drawback_item_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_drawback_goods"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_drawback_item_name"
+            android:layout_marginTop="10dp"
+            android:text="口味：香辣味"
+            android:textColor="#888888"
+            android:textSize="10sp"
+            android:id="@+id/tv_drawback_item_taste"/>
+    </RelativeLayout>
+
+</LinearLayout>

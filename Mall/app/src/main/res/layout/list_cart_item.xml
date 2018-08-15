@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="#ffffff">
+
+        <CheckBox
+            android:id="@+id/checkbox_list_cart"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" />
+
+        <ImageView
+            android:id="@+id/iv_list_cart_goods"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_toEndOf="@+id/checkbox_list_cart"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_list_cart_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/iv_list_cart_goods"
+            android:ellipsize="end"
+            android:lineSpacingExtra="5dp"
+            android:maxLines="2"
+            android:text="哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+            android:textColor="#434343"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_list_cart_taste"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/iv_list_cart_goods"
+            android:background="@drawable/tv_taste_bg"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="蛋黄味；"
+            android:textColor="#8b8a8a"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_list_cart_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_list_cart_taste"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/iv_list_cart_goods"
+            android:text="¥29.70"
+            android:textColor="#794c37"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/btn_list_cart_num_add"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="9dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:src="@drawable/cart_num_add_ic" />
+
+        <TextView
+            android:id="@+id/tv_list_cart_num"
+            android:layout_width="35dp"
+            android:layout_height="17.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="9dp"
+            android:layout_toLeftOf="@+id/btn_list_cart_num_add"
+            android:background="@drawable/tv_cart_num_bg"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#434343"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/btn_list_cart_num_reduce"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="9dp"
+            android:layout_toLeftOf="@+id/tv_list_cart_num"
+            android:background="@null"
+            android:src="@drawable/cart_num_reduce_ic"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

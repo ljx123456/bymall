@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:id="@+id/iv_list_need_pay_item"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_list_need_pay_item"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="82dp"
+            android:text="花香随云南特产美食小吃鲜花饼玫瑰饼零食大礼包送礼1500g礼盒"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="12sp"
+            android:textColor="#444444"
+            android:lineSpacingExtra="3dp"
+            android:id="@+id/tv_list_need_pay_item_name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="¥39.90"
+            android:textSize="12sp"
+            android:textColor="#444444"
+            android:id="@+id/tv_list_need_pay_item_price" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_list_need_pay_item_price"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:text="x1"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:id="@+id/tv_list_need_pay_item_num"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_list_need_pay_item"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_list_need_pay_item_name"
+            android:layout_marginTop="10dp"
+            android:text="规格：xxx"
+            android:textSize="11sp"
+            android:textColor="#888888"
+            android:id="@+id/tv_list_need_pay_item_taste"/>
+    </RelativeLayout>
+
+</LinearLayout>

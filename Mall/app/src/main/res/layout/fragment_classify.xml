@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="20dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout_classify">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="37dp"
+                android:layout_marginRight="37dp"
+                android:text="休闲零食"
+                android:textSize="14sp"
+                android:textColor="#bcbcbc"
+                android:gravity="center_vertical"
+                android:paddingLeft="7dp"
+                android:drawableLeft="@drawable/search_ic"
+                android:drawablePadding="10dp"
+                android:background="@drawable/textview_bg"
+                android:id="@+id/tv_classify_search"/>
+        </RelativeLayout>
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:id="@+id/classify_wv"></WebView>
+    </LinearLayout>
+    <include
+        layout="@layout/layout_net"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_classify_net"></include>
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:id="@+id/cancel_order_layout"
+        android:background="#f5f5f5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="#ffffff"
+            android:text="我不想买了"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:id="@+id/tv_cancel_order_tv1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="#ffffff"
+            android:layout_marginTop="2dp"
+            android:text="信息填写错误，重新拍"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:id="@+id/tv_cancel_order_tv2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="#ffffff"
+            android:layout_marginTop="2dp"
+            android:text="卖家缺货"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:gravity="center"
+            android:id="@+id/tv_cancel_order_tv3"/>
+    </LinearLayout>
+
+</RelativeLayout>

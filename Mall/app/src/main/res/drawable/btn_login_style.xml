@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_enabled="false">
+            <shape>
+                <gradient
+                    android:angle="0"
+                    android:endColor="#66c94554"
+                    android:startColor="#66df4545" />
+                <!-- 边框的颜色 ：不能和窗口背景色一样-->
+                <!--<stroke-->
+                <!--android:width="3dp"-->
+                <!--android:color="#ffffff" />-->
+                <!-- 设置按钮的四个角为弧形 -->
+                <!-- android:radius 弧形的半径 -->
+                <corners android:radius="18dip" />
+
+            </shape>
+        </item>
+    <item android:state_pressed="false">
+        <shape>
+            <gradient
+                android:angle="0"
+                android:endColor="#ffc94554"
+                android:startColor="#ffdf4545" />
+            <!-- 边框的颜色 ：不能和窗口背景色一样-->
+            <!--<stroke-->
+            <!--android:width="3dp"-->
+            <!--android:color="#ffffff" />-->
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="18dip" />
+
+        </shape>
+    </item>
+        <item android:state_pressed="true">
+            <shape>
+                <gradient
+                    android:angle="0"
+                    android:endColor="#66c94554"
+                    android:startColor="#66df4545" />
+                <!-- 边框的颜色 ：不能和窗口背景色一样-->
+                <!--<stroke-->
+                <!--android:width="3dp"-->
+                <!--android:color="#ffffff" />-->
+                <!-- 设置按钮的四个角为弧形 -->
+                <!-- android:radius 弧形的半径 -->
+                <corners android:radius="18dip" />
+            </shape>
+        </item>
+    <item android:state_enabled="true">
+        <shape>
+            <gradient
+                android:angle="0"
+                android:endColor="#ffc94554"
+                android:startColor="#ffdf4545" />
+            <!-- 边框的颜色 ：不能和窗口背景色一样-->
+            <!--<stroke-->
+            <!--android:width="3dp"-->
+            <!--android:color="#ffffff" />-->
+            <!-- 设置按钮的四个角为弧形 -->
+            <!-- android:radius 弧形的半径 -->
+            <corners android:radius="18dip" />
+
+        </shape>
+    </item>
+
+
+</selector>
